@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: linear-gradient(97deg, #2b2649 1.27%, #2b2635 75.23%);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-top {
+  gap: 15px;
+}
+
+.site-name {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+h3{
+  margin: 0;
+  color: white;
+  font-size: 30px;
+}
+
+.date-time {
+  font-size: 14px;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 5px;
+  font-weight: 800;
+}
+
+h1 .croco {
+  color: green;
+}
+
+h1 .bet {
+  color: white;
+}

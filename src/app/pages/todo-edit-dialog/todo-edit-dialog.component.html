@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Edit Todo</h1>
+<div mat-dialog-content>
+<div class="container">
+  <mat-card class="demo-inline-calendar-card">
+    <mat-calendar [(selected)]="selected"></mat-calendar>
+  </mat-card>
+  <mat-form-field>
+    <mat-select [formControl]="timeControl">
+      <div *appCycle="13; let i">
+        <mat-option [value]="i" > {{ i }}</mat-option>
+      </div>
+    </mat-select>
+  </mat-form-field>
+</div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button (click)="onSave()" color="primary">Save</button>
+</div>

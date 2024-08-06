@@ -1,0 +1,36 @@
+<section>
+<h1>Arrange Activity</h1>
+  <div class="calendar-hours">
+
+
+<div class="calendar">
+
+
+<mat-card class="demo-inline-calendar-card">
+  <mat-calendar [(selected)]="selected"></mat-calendar>
+  <p style="text-align: center">Selected date: {{ formattedDate }}</p>
+</mat-card>
+</div>
+    <div class="inputs">
+
+
+<div class="hours-container">
+  <mat-form-field>
+    <mat-select placeholder="Select an option" (selectionChange)="onHourChange($event)">
+      <div *appCycle="13; let i">
+        <mat-option [value]="i" > {{ i }}</mat-option>
+      </div>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<mat-form-field appearance="fill">
+  <input matInput [required]="true" placeholder="Task" [formControl]="task">
+</mat-form-field>
+
+    </div>
+
+  </div>
+<button mat-flat-button style="width: 185px" color="primary" [disabled]="task.errors" (click)="createActivity()">Reserve Activity</button>
+<button mat-flat-button style="width: 185px" color="warn" routerLink="/">Cancel</button>
+</section>

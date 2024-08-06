@@ -1,0 +1,41 @@
+<div class="flex">
+  <div class="flex-column">
+    <mat-card class="demo-inline-calendar-card">
+      <mat-calendar [(selected)]="selected" (selectedChange)="findIndex()"></mat-calendar>
+    </mat-card>
+    <button mat-flat-button color="primary" routerLink="create">Add activity</button>
+  </div>
+
+  <section class="scheduler">
+    <div *ngFor="let hour of (index === -1 ? otherArray[0].data : hours[index].data)">
+      <div class="example-container" cdkDropListGroup>
+        <h2>{{ hour.time }}</h2>
+        <div
+          cdkDropList
+          [cdkDropListConnectedTo]="itemList_ids"
+          id="{{hour.time}}"
+          [cdkDropListData]="hour.todos"
+          class="example-list"
+          (cdkDropListDropped)="drop($event)"
+        >
+          <ng-container *ngFor="let item of hour.todos; trackBy: trackByFn">
+            <div class="example-box" cdkDrag>
+              <span>{{ item }}</span>
+              <div>
+                <button mat-icon-button color="primary" (click)="openEditModal(hour, item)">
+                  <mat-icon>edit</mat-icon>
+                </button>
+                <button mat-icon-button color="warn" (click)="deleteTodo(formattedDate, hour.time, item)">
+                  <mat-icon>delete</mat-icon>
+                </button>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</div>

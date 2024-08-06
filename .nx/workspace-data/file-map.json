@@ -1,0 +1,188 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.5.6",
+  "deps": {
+    "@angular/animations": "^18.0.0",
+    "@angular/cdk": "^18.1.2",
+    "@angular/common": "^18.0.0",
+    "@angular/compiler": "^18.0.0",
+    "@angular/core": "^18.0.0",
+    "@angular/forms": "^18.0.0",
+    "@angular/material": "^18.1.2",
+    "@angular/platform-browser": "^18.0.0",
+    "@angular/platform-browser-dynamic": "^18.0.0",
+    "@angular/router": "^18.0.0",
+    "@ngxs/devtools-plugin": "^18.1.0",
+    "@ngxs/logger-plugin": "^18.1.0",
+    "@ngxs/storage-plugin": "^18.1.0",
+    "@ngxs/store": "^18.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3",
+    "@angular-devkit/build-angular": "^18.0.5",
+    "@angular/cli": "^18.0.5",
+    "@angular/compiler-cli": "^18.0.0",
+    "@types/jasmine": "~5.1.0",
+    "angular-eslint": "18.2.0",
+    "eslint": "^9.8.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.4.2",
+    "typescript-eslint": "8.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10175894702052279752"
+      },
+      {
+        "file": "angular.json",
+        "hash": "8911656166666477931"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "5720037949774906955"
+      },
+      {
+        "file": "package.json",
+        "hash": "5083321393496086538"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "16673857981554709383"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "5639552548108816633"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "4065129876050414105"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "18204431143342928122"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "14408706311411281750"
+      },
+      {
+        "file": "src/app/core/components/header/header.component.css",
+        "hash": "12182206623069556794"
+      },
+      {
+        "file": "src/app/core/components/header/header.component.html",
+        "hash": "9236715742305132199"
+      },
+      {
+        "file": "src/app/core/components/header/header.component.ts",
+        "hash": "2879036609252391365"
+      },
+      {
+        "file": "src/app/core/directives/cycle.directive.ts",
+        "hash": "15938524698191395514"
+      },
+      {
+        "file": "src/app/core/directives/directives.module.ts",
+        "hash": "2412111120001494683"
+      },
+      {
+        "file": "src/app/core/models/activity.model.ts",
+        "hash": "7485798586021998966"
+      },
+      {
+        "file": "src/app/core/services/activity.service.ts",
+        "hash": "3144941626659975651"
+      },
+      {
+        "file": "src/app/core/state/activity.actions.ts",
+        "hash": "14398846866583700947"
+      },
+      {
+        "file": "src/app/core/state/activity.state.ts",
+        "hash": "7730569616349249781"
+      },
+      {
+        "file": "src/app/pages/add-activity/add-activity.component.css",
+        "hash": "17918610827130377764"
+      },
+      {
+        "file": "src/app/pages/add-activity/add-activity.component.html",
+        "hash": "15310209608000339951"
+      },
+      {
+        "file": "src/app/pages/add-activity/add-activity.component.ts",
+        "hash": "7539515487539019721"
+      },
+      {
+        "file": "src/app/pages/home/home.component.css",
+        "hash": "2631087181819421598"
+      },
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "hash": "12674645252807325461"
+      },
+      {
+        "file": "src/app/pages/home/home.component.ts",
+        "hash": "16556279458747651166"
+      },
+      {
+        "file": "src/app/pages/todo-edit-dialog/todo-edit-dialog.component.css",
+        "hash": "13813621553351887260"
+      },
+      {
+        "file": "src/app/pages/todo-edit-dialog/todo-edit-dialog.component.html",
+        "hash": "13923366310446633321"
+      },
+      {
+        "file": "src/app/pages/todo-edit-dialog/todo-edit-dialog.component.ts",
+        "hash": "16676934301338737003"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "4395407270670059354"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "4169901790405087765"
+      },
+      {
+        "file": "src/styles.css",
+        "hash": "6073789625278992011"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "14560978611694835822"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "537034293907716874"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "11023685540591620072"
+      }
+    ]
+  }
+}
